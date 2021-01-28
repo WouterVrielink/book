@@ -15,66 +15,6 @@ Up until now we have only used \texttt{void} for \texttt{<type>}. We can now def
 
 Now if we would like to have the function return something, we will specify as \texttt{<type>} what kind of value the function will be returning. In this book, we will use the type \texttt{int}, \texttt{float} and \texttt{string}.
 
-% \begin{figure}[h]
-% \begin{subfigure}[b]{.3\linewidth}
-% \begin{verbatim}
-% int das(x):
-%   return x / 4
-% print(das(12))
-% \end{verbatim}
-% \end{subfigure}
-% \begin{subfigure}[b]{.3\linewidth}
-% \begin{verbatim}
-% float cod():
-%   return 12.0 / 4.0
-% print(plo())
-% \end{verbatim}
-% \end{subfigure}
-% \begin{subfigure}[b]{.3\linewidth}
-% \begin{verbatim}
-% str plo():
-%   return "drie"
-% print(plo())
-% \end{verbatim}
-% \end{subfigure}
-% \end{figure}
-%
-% Deze stukken code printen dan:
-% \begin{figure}[h]
-% \begin{subfigure}[b]{.3\linewidth}
-% \begin{verbatim}
-% 3
-% \end{verbatim}
-% \end{subfigure}
-% \begin{subfigure}[b]{.3\linewidth}
-% \begin{verbatim}
-% 3.0
-% \end{verbatim}
-% \end{subfigure}
-% \begin{subfigure}[b]{.3\linewidth}
-% \begin{verbatim}
-% drie
-% \end{verbatim}
-% \end{subfigure}
-% \end{figure}
-%
-% Je kan ook het resultaat van de functie opslaan in een variabele:
-%
-% \begin{verbatim}
-% int tok(bat):
-%   return bat / 2
-% pet = tok(8)
-% print(pet)
-% print(tok(pet))
-% \end{verbatim}
-
-% Dit zou het volgende uitprinten:
-%
-% \begin{verbatim}
-% 4
-% 2
-% \end{verbatim}
-
 \paragraph{Tracing}
 
 Functions that calculate and return something can be traced much like before. We add a \emph{back substitution} that fills in the returned value of the function into the place where it was called. Below, the function call \texttt{das(12)} returns the integer 3, which is then substituted into the \texttt{print} statement.

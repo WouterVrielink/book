@@ -1,4 +1,4 @@
-void bar(name):
+def bar(name):
    print(name)
 foo = "skip"
 bar("jump")

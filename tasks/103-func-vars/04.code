@@ -1,4 +1,4 @@
 name = "pieter"
-void greet(name):
+def greet(name):
    print("hello")
 greet(name)

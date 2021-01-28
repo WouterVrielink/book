@@ -1,8 +1,8 @@
 nit = 5
 rut = 3
-void foo():
+def foo():
    nit = rut
-void fuf():
+def fuf():
    rut = rut * 2
 fuf()
 foo()

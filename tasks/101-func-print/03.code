@@ -1,6 +1,6 @@
-void foo():
+def foo():
    print("fly")
-void bar():
+def bar():
    print("jump")
 foo()
 bar()

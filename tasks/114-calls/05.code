@@ -1,8 +1,8 @@
-int nae(z, y)
+def nae(z, y)
    return 2 * y
-int bus(x, z)
+def bus(x, z)
    return nae(z, x) + 3
-int ann(z, y, x)
+def ann(z, y, x)
    return bus(y, z) / 2
 
 y = 5

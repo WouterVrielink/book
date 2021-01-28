@@ -3,7 +3,7 @@
 Functions often have \emph{parameters}. When calling the function, we supply \emph{values} for these parameters, which is called \emph{parameter passing}. From the function's perspective, these values are assigned names that are specified in the \emph{parameter list} of the function definition.
 
 \begin{verbatim}
-<type> <name of function>(<parameter list>):
+def <name of function>(<parameter list>):
     <function body>
 \end{verbatim}
 
@@ -12,14 +12,14 @@ Now consider these two function definitions. Both have two parameters named in t
 \begin{figure}[h]
 \begin{subfigure}[b]{.5\linewidth}
 \begin{verbatim}
-void date_1(day, month):
+def date_1(day, month):
     print(day)
     print(month)
 \end{verbatim}
 \end{subfigure}
 \begin{subfigure}[b]{.5\linewidth}
 \begin{verbatim}
-void date_2(month, day):
+def date_2(month, day):
     print(day)
     print(month)
 \end{verbatim}

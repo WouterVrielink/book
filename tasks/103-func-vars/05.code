@@ -1,5 +1,5 @@
 x = 3
 y = 5
-void foo(a, b):
+def foo(a, b):
    print(a / b)
 foo(x, y)

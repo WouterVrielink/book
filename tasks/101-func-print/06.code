@@ -1,6 +1,6 @@
-void baz():
+def baz():
    bar()
    print("rainbow")
-void bar():
+def bar():
    print("fly")
 baz()

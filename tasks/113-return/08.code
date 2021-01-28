@@ -1,5 +1,5 @@
-void una(x, z):
+def una(x, z):
    print(x / z)
-int kam(y):
+def kam(y):
    return y * 3
 print(una(kam(4), 10))

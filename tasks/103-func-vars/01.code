@@ -1,4 +1,4 @@
-void foo(x):
+def foo(x):
    print(x)
 inv = "fly"
 foo(inv)

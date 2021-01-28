@@ -1,5 +1,5 @@
-void baz():
+def baz():
    print("jump")
-void foo():
+def foo():
    print("bicycle")
 baz()

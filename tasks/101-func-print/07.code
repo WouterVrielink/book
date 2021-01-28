@@ -1,6 +1,6 @@
-void foo():
+def foo():
    baz()
    print("cake")
-void baz():
+def baz():
    print("jump")
 baz()

@@ -1,10 +1,10 @@
 puf = 0
-void fip():
+def fip():
    if puf == 0:
    puf = 1
    else:
    par()
-void par():
+def par():
    puf = puf * 3
 fip()
 fip()

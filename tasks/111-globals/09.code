@@ -1,7 +1,7 @@
 raf = 2
-void foo():
+def foo():
    raf = raf * 2
-void bar():
+def bar():
    raf = raf + 1
 foo()
 bar()

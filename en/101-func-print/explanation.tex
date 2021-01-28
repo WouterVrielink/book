@@ -3,14 +3,14 @@
 For functions there is a separation between the \emph{definition}, which describes what actions the function will perform, and the function \emph{call}, which signals that our function should be run. This also means that as we define a function, it will not automatically be run, allowing us to postpone running it until we need it. This, in turn, allows us to call a function multiple times in different parts of our programs. In this book, a function definition will look like this:
 
 \begin{verbatim}
-<type> <name of function>():
+def <name of function>():
     <function body>
 \end{verbatim}
 
-For now, we will use \texttt{void} for the \texttt{<type>}. This word \texttt{void} signals that the function is intended to perform some action (later, we will see functions that calculate something). One example of a function that performs an action is a printing function:
+The word \texttt{def} at signals that we are about to define a function. For now, we will just discuss functions that perform actions, we will see functions that calculate something later. One example of a function that performs an action is a printing function:
 
 \begin{verbatim}
-void print_reassuring_message():
+def print_reassuring_message():
     print("I'm still here!")
 \end{verbatim}
 

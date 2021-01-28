@@ -1,6 +1,6 @@
 x = 1
-int una(x):
+def una(x):
    return x + 1
-int zab(y):
+def zab(y):
    return y - 1
 print(zab(2) + una(x))

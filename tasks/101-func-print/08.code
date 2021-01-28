@@ -1,6 +1,6 @@
-void bar():
+def bar():
    print("bicycle")
-void baz():
+def baz():
    print("jump")
    bar()
 baz()

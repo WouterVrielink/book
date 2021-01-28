@@ -1,7 +1,7 @@
 rod = 10
-void zot():
+def zot():
    rod = 8
-void pup():
+def pup():
    rod = rod / 2
 zot()
 pup()

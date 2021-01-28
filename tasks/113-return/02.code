@@ -1,3 +1,3 @@
-string bar(name):
+def bar(name):
    return "jump"
 print(bar("hi"))

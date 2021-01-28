@@ -1,5 +1,5 @@
 ufo = "fly"
-void foo():
+def foo():
    print(ufo)
 ufo = "by"
 foo()

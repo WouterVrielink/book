@@ -1,8 +1,8 @@
-int dip(y, x)
+def dip(y, x)
    return y * 4
-int mux(y, z)
+def mux(y, z)
    return 5 / dip(y, z)
-int bad(x, z)
+def bad(x, z)
    return mux(z, x) + 3
 y = 4
 x = 5

@@ -1,4 +1,4 @@
 x = 10
-void bar(x, z):
+def bar(x, z):
    print(z / x)
 bar(x, 12)

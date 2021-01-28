@@ -1,4 +1,4 @@
-void bis(baz):
+def bis(baz):
    baz = baz + 1
    print(baz + pop)
 baz = 10

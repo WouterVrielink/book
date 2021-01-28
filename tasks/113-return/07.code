@@ -1,4 +1,4 @@
-string mak(x, y, z):
+def mak(x, y, z):
    return y
 mis = "cal"
 res = mak("sol", mis, "toa")

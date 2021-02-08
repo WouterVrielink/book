@@ -1,8 +1,8 @@
-def gus(z, y)
+def gus(z, y):
    return dim(z, y) / 2
-def yap(z, x)
+def yap(z, x):
    return gus(x, z) - 3
-def dim(y, x)
+def dim(y, x):
    return x + 4
 x = 6
 y = 4

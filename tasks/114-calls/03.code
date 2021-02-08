@@ -1,9 +1,9 @@
-def dip(y, x)
+def dip(y, x):
    return y * 4
-def mux(y, z)
+def mux(y, z):
    return 5 / dip(y, z)
-def bad(x, z)
+def bad(x, z):
    return mux(z, x) + 3
-y = 4
-x = 5
+y = 5
+x = 6
 print(bad(x, y))

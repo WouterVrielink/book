@@ -1,8 +1,8 @@
-def loo(y, z)
+def loo(y, z):
    return z / 3
-def aam(z, y)
+def aam(z, y):
    return loo(y, z) * 6
-def wah(y, z, x)
+def wah(y, z, x):
    return aam(y, z) - 2
 z = 2
 x = 5

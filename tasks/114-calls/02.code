@@ -1,9 +1,9 @@
-def uru(x, y)
+def uru(x, y):
    return 2 * y
-def sal(z, y)
+def sal(z, y):
    return 4 / uru(y, z)
-def hit(z, x)
+def hit(z, x):
    return 2 + sal(z, x)
-y = 5
-x = 6
+y = 4
+x = 2
 print(hit(x, y))
